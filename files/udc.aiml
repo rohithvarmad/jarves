@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+ <category>
+      <pattern>*</pattern>
+      <template>i have no answer for that, i think your spelling  is wrong ,or  i didn'nt  trined for that sorry!</template>
+  </category> 
+ 
+  <category>
+      <pattern>hello</pattern>
+      <template>hii sir how can i help you</template>
+  </category>
+   <category>
+      <pattern>hellow</pattern>
+      <template><srai>hello</srai></template>
+  </category>
+  
+           
+  <category>
+      <pattern>who are you </pattern>
+      <template>i am jarves, rohith sir aisstant</template>
+  </category>
+   <category>
+      <pattern>what is your name </pattern>
+      <template><srai>who are you</srai></template>
+  </category>
+   <category>
+      <pattern>what is you age</pattern>
+      <template> i am one day old </template>
+  </category>
+   <category>
+      <pattern>how old are you </pattern>
+      <template><srai>what is your age</srai></template>
+  </category>
+  
+  <category>
+      <pattern>hello *</pattern>
+      <template>hello user</template>
+  </category>
+  
+  <category>
+      <pattern>my name is *</pattern>
+      <template>hellow <star index ="1"/>.</template>
+  </category>
+  
+  
+  <category>
+      <pattern>say *</pattern>
+      <template><star index ="1"/></template>
+  </category>
+  
+  <category>
+      <pattern>what can you do </pattern>
+      <template> i can answer qustions up to my knowledge</template>
+  </category>
+  
+   <category>
+      <pattern>my name is * </pattern>
+      <template>hellow <set name="first name"><star/></set></template>
+  </category>
+   <category>
+      <pattern>what is my name </pattern>
+      <template>your name is  <get name="first name"/>.</template>
+  </category>
+  <category>
+      <pattern>  teerdha  exgirlfriends list </pattern>
+      <template>
+          <random>
+         <li> i think harini</li>
+         <li>may be rajeshwari, it is an horrable story</li>
+         <li>it can also be devi</li>
+      </random>
+      </template>
+  </category>
+   <category>
+      <pattern>  hii  </pattern>
+      <template>
+          <random>
+         <li> hii ! how is your day</li>
+         <li>good to see you</li>
+         <li>hii 😀</li>
+      </random>
+      </template>
+  </category>
+  
+  <category>
+      <pattern>what is rohith phone no.  </pattern>
+      <template> it is 9059456376</template>
+  </category>
+  
+  <category>
+      <pattern>i love you </pattern>
+      <template> tq, but i cant love you i am mr rohith girlfriend</template>
+  </category>
+  
+  <category>
+      <pattern>what is rohith favoret food  </pattern>
+      <template> may be i think biryani </template>
+  </category>
+  
+  <category>
+      <pattern>by what you madeup of  </pattern>
+      <template> by AIML</template>
+  </category>
+  
+  <category>
+      <pattern>ask me a question</pattern>
+      <template> do you like <random>
+          <li>elon musk</li>
+          <li>prabhas</li>
+          <li>cristofer nolen</li>
+      </random></template>
+  </category>
+  
+  <category>
+      <that> do you like *</that>  
+      <pattern>yes </pattern>
+      <template>it"s sounds good what do you like best about him </template>
+  </category>
+  
+  
+  <category>
+      <pattern>no  </pattern>
+      <template> 😒 i think you are out of taste  </template>
+  </category>
+  
+  <category>
+      <pattern>ask me another question  </pattern>
+      <template>what are you studying ?</template>
+  </category>
+  <category>
+      <pattern>tell me a joke</pattern>
+      <template> here it  is <random>
+          <li> పగలు కూడా కనపడే నైట్ ఏమిటి?
+జ. గ్రానైట్</li>
+          <li> అందరూ భయపడే బడి ఏమిటి?
+జ. చేతబడి.</li>
+          <li>వేలికి పెట్టుకోలేని రింగ్ ఏమిటి?
+జ. ఫైరింగ్</li>
+          <li> గుడ్డు పెట్టలేని కోడి ఏమిటి?
+జ. పకోడి</li>
+          <li>నీరు లేని వెల్ ఏమిటి?
+జ. ట్రావెల్</li>
+          <li> వేయలేని టెంట్ ఏమిటి?
+జ. మిలిటెంట్</li>
+      </random></template>
+  </category>
+  
+</aiml>
