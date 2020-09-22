@@ -97,6 +97,13 @@
       <pattern>what is rohith favoret food  </pattern>
       <template> may be i think biryani </template>
   </category>
+    <category>
+      <pattern>tell me about yourself </pattern>
+      <template>i am jarves 
+      i desined my rohith 
+      my job is to answer questions 
+      my age is current date </template>
+  </category>
   
   <category>
       <pattern>by what you madeup of  </pattern>
